@@ -19,13 +19,13 @@ Clone the repository:
 ## File Structure
 
 The project has the following structure:
-.
+```
 ├── train.py
 ├── test.py
 └── model/
     ├── model.json
     └── model.h5
-
+```
 - `train.py`: Python script for training the CNN model on the provided dataset.
 - `test.py`: Python script for evaluating the trained model on test data or for making predictions.
 - `model/`: Directory containing the trained model's architecture (`model.json`) and weights (`model.h5`).
@@ -42,10 +42,11 @@ python test.py
 
 ## download FER2013 dataset
 - https://www.kaggle.com/msambare/fer2013
+```
 data/
     ├── test
     └── train
-
+```
 
 
 
